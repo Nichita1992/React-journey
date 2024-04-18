@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+<head>
+    <title>Guess My Number</title>
+    <style type="text/css"></style>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="Free Web Tutorials" />
+    <meta name="author" content="Nichita Strajescu" />
+    <meta http-equiv="refresh" content="999999999" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--sets the width of the page to follow the screen-width of the device / sets the initial zoom level when the page is first loaded by the browser-->
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--this is the linkage of CSS to HTML-->
+</head>
+</head>
+<body>
+    <div class="header">
+        <p class="between">(Between 1 and 20)</p>
+        <h1>Guess My Number!</h1>
+        <div class="number">?</div>
+    </div>
+    <div class="main">
+        <div class="left">
+          <input type="number" class="guess" min="1" max="20"></input>
+          <div class="btnContainer">
+            <button class="btn again">Again!</button>
+            <button class="btn check">Check!</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="message">Start guessing...</div>
+            <div class="label-score">💯 Score: <span class="score">20</span></div>
+            <div class="label-highscore">🥇 Highscore: <span class="highscore">0</span></div>
+        </div>
+    </div>
+    
+<script type="text/javascript" src="script.js"></script> <!--this is the linkage of JS to HTML-->   
+</body>
+
+</html>
